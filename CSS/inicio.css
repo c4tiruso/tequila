@@ -1,4 +1,5 @@
 
+/*General*/
 *{
 margin: 0 px;
 padding: 0 px;
@@ -6,10 +7,10 @@ box-sizing: border-box;
 overflow-x: hidden;
 }
 
-body::-webkit-scrollbar{
-    width: 30px;
+ body::-webkit-scrollbar{
+    width: 15px;
     background-color: #000000;
-    }
+    } 
 
 body::-webkit-scrollbar-thumb{
         background-color: #cc3a3a;
@@ -23,14 +24,17 @@ body::-webkit-scrollbar-thumb{
     --gris: #3f3f3f;
 }
 
+/*Seccion Inicio*/
 .inicio{
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #a85a5a;
 }
 
+/*Contenedor de 2 DIV*/
 .iniciocont{
 text-align: center;
 display: flex;
@@ -41,6 +45,7 @@ height: 100%;
 flex-direction: row-reverse;
 }
 
+/*DIV 1 Foto*/
 .imgteq{
     position: relative;
     width: 100%;
@@ -56,6 +61,7 @@ flex-direction: row-reverse;
 
 }
 
+/*Div 2 info y login*/
 .registroingreso{
     position: relative;
     width: 100%;
@@ -63,4 +69,34 @@ flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
+
+/*Config Botones del DIV 2*/
+.btn{
+width: 90%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.registroingreso a{
+    padding: 5px 15px 5px 15px;
+    background-color: var(--negro);
+    color: rgb(216, 100, 100);
+    border-radius: 15px;
+    font-size: 1.7em;
+    font-family: arial rounded mt;
+    text-decoration: none;
+    transition: .2s;
+    cursor: pointer;
+    border: 3px solid var(--blanco);
+    margin-left: 20px;
+}
+
+.registroingreso a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(216, 100, 100);
+    border-radius: 15px;
+    font-size: 2.7em;
+} 
