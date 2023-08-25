@@ -1,0 +1,38 @@
+.contenedor-galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contenedor-galeria img{
+    cursor: pointer;
+    border-radius: 1.5em;
+}
+
+.imggaleria{
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width:300px) and (max-width:610px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px 0 10px;
+    }
+
+
+    .contenedor-galeria{
+        display: flex;
+        grid-template-columns: repeat(2);
+        justify-content: space-evenly;
+    }
+   
+    
+    .imggaleria{
+        width: 12em;
+        display: block;
+        margin-bottom: 15px;
+    }
+}

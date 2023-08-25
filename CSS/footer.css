@@ -1,0 +1,119 @@
+.piepag{
+    width: 100%;
+    background-color: var(--negro);
+    color: var(--blanco);
+   left: 0px;
+}
+
+.grupo1{
+    width: 100%;
+    max-width: 12000px;
+    margin: auto;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20em;
+    padding: 1.5em 0em 1em 0em;
+}
+
+.boxp figure{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxp figure img{
+    width: 15em;
+
+}
+
+.box h2{
+text-align: center;
+font-size: 1.5em;
+}
+
+.box p{
+    text-align: center;
+    font-size: 1em;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social a{
+display: inline-block;
+text-decoration: none;
+width: 4em;
+height: 4em;
+line-height: 4em;
+color: var(--blanco);
+background-color: var(--rojo);
+text-align: center;
+border-radius: 1em;
+transition: 1.2s;
+}
+
+.social a:hover{
+    background-color: var(--blanco);
+    color: var(--rojo);
+    transition: 1.2s;
+}
+
+.grupo2{
+    background-color: var(--rojo);
+    color: var(--blanco);
+    padding: 1em 0 1em 0;
+    text-align: center;
+    font-size: 1.7em;
+    
+}
+
+/* Responsive del Footer */
+@media only screen and (min-width: 300px) and (max-width: 610px) {
+    .grupo1{
+        width: 100%;
+        max-width: 650px;
+        /* margin: auto; */
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: repeat(3, 1fr); */
+        grid-gap: 10px;
+        padding: 1.5em 0em 1em 0em;
+    }
+
+    .box{
+        width: 100%;
+        padding: 0px 10px 0px 10px;
+    }
+    .boxp{
+        width: 100%;
+        padding: 0px 70px 0px 0.5px;
+        
+    }
+   
+
+    .boxp figure{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+
+    
+    .box h2{
+        text-align: center;
+        font-size: 20px;
+        }
+    
+        .box p{
+            text-align: center;
+            font-size: 15px;
+            left: 10px;
+            }
+}
