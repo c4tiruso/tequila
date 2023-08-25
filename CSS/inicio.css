@@ -127,6 +127,8 @@ header .cont-nav a:hover{
         margin-top: 8px;
         margin-bottom: 7px;
         height: 5px;
+        transition: .5s;
+        position: relative;
         background-color: var(--blanco);
         
     }
@@ -171,7 +173,7 @@ header .cont-nav a:hover{
         border-radius: 8px;
         justify-content: center;
         transition: .2s;
-        /* right: 3.5em; */
+        z-index: 3000;
         position: relative;
      
     }
