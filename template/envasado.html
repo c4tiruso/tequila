@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block body %}
+<link rel="stylesheet" href="../static/CSS/envasado.css">
+<section class="envsec">
+    <div class="contenv">
+        <div class="infoenv">
+            <h2>Dilucion</h2>
+            <p>¿Cómo se diluye el tequila?
+                La dilución del tequila es cuando a un tequila de alto grado, que puede ser a 55% alcohol 
+                volumen (Alc. Vol.), se le agrega agua desmineralizada de buena calidad, para ajustar su concentración de 
+                alcohol, que puede ser desde 35% Alc. Vol. como mínimo y hasta 55% Alc.</p>
+        </div>
+        <div class="imgenv"> <img src="{{url_for('static', filename= 'SRC/4.jpg')}}" alt=""> </div>
+    </div>
+    <div class="contenv">
+        <div class="imgenv"> <img src="{{url_for('static', filename= 'SRC/6.jpg')}}" alt=""> </div>
+        <div class="infoenv">
+            <h2>Envasado</h2>
+            <p>Como ya se menciono anteriormente, el Tequila se debe envasar en recipientes nuevos de tipo sanitario. 
+                Los materiales permitidos actualmente son vidrio, aluminio, cartón laminado, acero inoxidable y polietilén 
+                tereftalato (PET).</p>
+        </div>
+        
+    </div>
+ 
+ 
+    
+</section>
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block body %}
+<link rel="stylesheet" href="../static/CSS/destila.css">
+<section class="destilasec">
+    <div class="contdest">
+        <div class="infodes">
+            <h2>Destilacion</h2>
+            <p>La destilación del tequila es la parte donde, el mosto muerto, producto de la fermentación que se obtiene de la fase anterior, está lleno de impurezas y compuestos que deben eliminarse para obtener definitivamente el tequila con el grado alcohólico deseado.
+                Es importante mencionar que la destilación NO produce alcohol, tan sólo lo concentra.</p>
+        </div>
+        <div class="imgdest">
+            <img src="{{url_for('static', filename= 'SRC/d1.png')}}" alt="">
+        </div>
+    </div>
+    <div class="contdest">
+        <div class="imgdest">
+            <img src="{{url_for('static', filename= 'SRC/6.jpg')}}" alt="">
+        </div>
+        <div class="infodes">
+            <h2>Maduracion</h2>
+            <p>Se entiende por Maduración del Tequila a la transformación lenta del producto que le permite adquirir características sensoriales adicionales, obtenidas por procesos fisicoquímicos que en forma natural tienen lugar durante su permanencia en recipientes de madera de roble o encino.
+                El Tequila reposado debe madurarse en recipientes de madera de roble o encino por lo menos dos meses.
+                El resultado de las mezclas de Tequila reposado con Tequilas añejos o extra añejos, se considera como Tequila reposado.
+            </p>
+            
+        </div>
+    </div>
+    <div class="contdest">
+        <div class="infodes">
+            <h2>Filtracion</h2>
+            <p>Después del proceso de añejamiento el siguiente paso es el filtrado, donde se busca eliminar todas las partículas sólidas que pueda contener el tequila para conseguir un líquido totalmente claro.
+                Esto se consigue pasando el tequila por filtros de celulosa que atrapan las partículas sólidas, grasa y cualquier otro elemento indeseable que no fue eliminado en las etapas anteriores.</p>
+        </div>
+        <div class="imgdest">
+            <img src="{{url_for('static', filename= 'SRC/2.jpg')}}" alt="">
+        </div>
+    </div>
+</section>
+
+{% endblock %}

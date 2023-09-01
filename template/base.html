@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAF Tequila´s</title>
+    <!-- links para css -->
+    <link rel="stylesheet" href="{{url_for('static', filename= 'CSS/inicio.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename= 'CSS/login.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename= 'CSS/historia.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename= 'CSS/procesos.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename= 'CSS/galeria.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename= 'CSS/footer.css')}}">
+    <!-- Otras librerias -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9fe6dd8af8.js" crossorigin="anonymous"></script>
+    {% block head %}
+    {% endblock %}
+</head>
+<body> 
+
+<!--NAV-VAR -->
+<header>
+    <div class="logonav">
+        <img src= "{{url_for('static', filename= 'SRC/daff.png')}}" alt="">
+    </div>
+    <nav>
+        <ul class="cont-nav">
+            <li><a href="" id="btnlogin">Login</a></li>
+            <li><a href="" id="btnhist">Historia</a></li>
+            <li><a href="" id="btnreali">Realizacion</a></li>
+            <li><a href="" id="btngale">Galeria</a></li>
+        </ul>
+    <div class="hamburguesa">
+            <hr id="hr1">
+            <hr id="hr2">
+            <hr id="hr3">
+    </div>
+    </nav>
+    
+</header>
+
+<div class="nav-phone" id="nav">
+    <ul class="cont-nav2">
+      <li><a id="btnlogin" onclick="(login())">Login</a></li>
+      <li><a id="btnhist" onclick="(historia())">Historia</a></li>
+      <li><a id="btnreali" onclick="(realizacion())">Realizacion</a></li>
+      <li><a id="btngale" onclick="(galeria())">Galeria</a></li>      
+  </ul>
+</div> 
+
+{% block body %}
+{% endblock%}
+
+
+
+<footer class="piepag">
+    <div class="grupo1">
+        <div class="boxp">
+            <figure>
+                <a class="aimg" href="#">
+                    <img src= "{{url_for('static', filename= 'SRC/daff.png')}}" alt="">
+                </a> 
+            </figure>
+        </div>
+
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatum.</p>
+        </div>
+
+        <div class="box">
+            <h2>Siguenos</h2>
+            <div class="social">
+                <a href="https://www.instagram.com/papichampf/" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+
+            </div>    
+        </div>
+    </div>
+    <div class="grupo2">
+        <small>&copy;2023 <b>DAF</b> - Todos los Derechos Reservados</small>
+    </div>
+</footer>
+
+<script src="{{url_for('static', filename= 'JS/app.js')}}"></script>
+</body>
+
+</html>

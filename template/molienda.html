@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block body %}
+<link rel="stylesheet" href="{{url_for('static', filename= 'CSS/molienda.css')}}">
+<section class="moliendasec">
+    <div class="contmol">
+        <div class="infomol">
+            <h2>Molienda</h2>
+                <p>De manera simple, la molienda consiste en extirpar, estrujar o pisar las piñas de agave desmembradas y cocidas hasta convertirlas en una pulpa fácil de exprimir para extraerle el máximo de su jugo o miel para que sea fermentado y se 
+                    convierta en el alcohol del tequila.
+                    El objetivo de la molienda es darle acceso a la levadura a la mayor cantidad de azúcar posible. De igual forma, el 
+                    método elegido de molienda determina el tipo de destilación o más bien, el tipo de mosto o jugos que irán al tanque 
+                    de fermentación.
+                    Algunos métodos rompen todas las fibras mientras que otras no, en el caso que las fibras 
+                    no estén rotas se agregan a los tanques de fermentación para brindarle a las levaduras todo el 
+                    acceso posible a los azucares del agave.</p>
+        </div>
+        <div class="imgmol"> <img src="{{url_for('static', filename= 'SRC/m1.jpg')}}" alt=""> </div>
+    </div>
+    <div class="contmol1">
+        <div class="infomol">
+            <h2>Coccion</h2>
+            <p>Este proceso es en donde se lleva a cabo la hidrólisis de los azúcares. Se consigiue mediante el cocimiento de las piñas con vapor a una presión de 1,2 Kg/cm2, durante 4 horas, permaneciendo el agave por un tiempo total de 18 horas a una temperatura aproximada de 105°C (2).
+                Los hornos pueden ser de ladrillo, de diferentes capacidades, tal y como se ven en las fotos. Aunque hoy en día suelen ser de acero inoxidable, creando grandes autoclaves con difusores para el vapor de agua. Las piñas se cuecen a vapor lentamente hasta que su consistencia sea, suave, dulce, jugosa de color café, bien cocida.</p>
+        </div>
+        <div class="imgmol"> <img src="{{url_for('static', filename= 'SRC/m2.jpg')}}" alt=""> </div>
+    </div>
+    <div class="contmol">
+        <div class="infomol">
+            <h2>Fermentacion</h2>
+            <p>La fermentación del tequila es una fase del proceso sumamente importante porque es donde se produce el alcohol de la bebida.
+                Durante la fermentación, los azúcares obtenidos durante el proceso de horneado y que se encuentran en el jugo o mosto que se ha conseguido con la molienda, se transforman en alcohol etílico por la acción natural de microorganismos o levaduras, capaces de transformar materia orgánica en otro tipo de elemento o energía.
+                Durante este proceso también se afianzan los sabores y aromas distintivos de tequila en función de su cosecha, horneado y molienda, y a su vez las levaduras generan compuestos que otorgan notas aromáticas y de sabor adicionales.</p>
+        </div>
+        <div class="imgmol"> <img src="{{url_for('static', filename= 'SRC/m3.png')}}" alt=""> </div>
+    </div>
+
+</section>
+{% endblock %}

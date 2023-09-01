@@ -1,0 +1,66 @@
+:root{
+    --blanco: #ffffff;
+    --negro: #000000;
+    --negrot: #00000071;
+    --rojo: #a71930;
+    --gris: #3f3f3f;
+    --grisclaro: #a5acaf;
+}
+
+.moliendasec{
+    margin-top: 6em;
+    background-image: linear-gradient(to top, rgba(218, 57, 42, 0.5) 0%, rgba(97, 40, 40, 0.5) 100%), url(../SRC/m1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.contmol{
+    padding: 2.5em 2.5em 2.5em 2.5em;
+    margin: 2.3em;
+    display: flex;
+    flex-direction: row;
+}
+
+.contmol1{
+    padding: 2.5em 2.5em 2.5em 2.5em;
+    margin: 2.3em;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.infomol{
+    background-color: var(--negrot);
+    color: var(--blanco);
+    border-radius: 1.5em;
+    padding: 0em 1em 0em 1em;
+    width: 100%;
+}
+
+.infomol h2{
+    font-size: 2em;
+}
+
+.infomol p{
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.imgmol{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.imgmol img{
+    width: 30em;
+    height: 15em;
+    position: relative;
+    opacity: 70%;
+    border-radius: 1.5em;
+}
+
+
+

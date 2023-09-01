@@ -1,0 +1,142 @@
+:root{
+    --blanco: #ffffff;
+    --negro: #000000;
+    --negrot: #000000b0;
+    --rojo: #a71930;
+    --rojo1:#ed1919;
+    --gris: #3f3f3f;
+    --grisclaro: #a5acaf;
+}
+
+.inicio{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, rgba(218, 57, 42, 0.5) 0%, rgba(97, 40, 40, 0.5) 100%), url(../SRC/m1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.iniciocont{
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+flex-direction: row-reverse;
+}
+
+.imgteq{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgteq img{
+    display: flex;
+    width:  35em;
+    height: 35em;
+}
+
+/*slogan y login*/
+.registroingreso h1{
+    color: var(--blanco);
+    font-size: 5rem;
+    width: fit-content;
+}
+
+
+.registroingreso{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.btn{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+justify-content: space-evenly;
+}
+
+.registroingreso a{
+    padding: 5px 15px 5px 15px;
+    background-color: var(--rojo1);
+    color: var(--blanco);
+    border-radius: 15px;
+    font-size: 1.7em;
+    text-decoration: none;
+    transition: .2s;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.registroingreso a:hover{
+    background-color: var(--blanco);
+    color: var(--rojo1);
+    border-radius: 15px;
+    font-size: 2em;
+    transition: .2s;
+} 
+
+@media only screen and (min-width: 300px) and (max-width: 610px) {
+    .iniciocont{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        }
+    .registroingreso{
+        top: 50px;        
+        }
+
+    .registroingreso h1{
+        color: var(--rojo);
+        font-size: 1.5rem;
+        width: fit-content;
+    } 
+
+    .imgteq img{
+        display: flex;
+        width:  15em;
+        height: auto;
+    
+    }
+    
+    .registroingreso a{
+        padding: 5px 15px 5px 15px;
+        background-color: var(--rojo);
+        color: var(--blanco);
+        border-radius: 15px;
+        font-size: 20px;
+        text-decoration: none;
+        transition: .2s;
+        cursor: pointer;
+        margin-left: 20px;
+       
+    }
+
+    .registroingreso a:hover{
+        background-color: var(--grisclaro);
+        color: var(--rojo);
+        border-radius: 15px;
+        font-size: 1em;
+        transition: .2s;
+    } 
+
+}

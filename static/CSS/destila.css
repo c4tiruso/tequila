@@ -1,0 +1,60 @@
+:root{
+    --blanco: #ffffff;
+    --negro: #000000;
+    --negrot: #00000095;
+    --rojo: #a71930;
+    --gris: #3f3f3f;
+    --grisclaro: #a5acaf;
+}
+
+.destilasec{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 6em;
+    background-image: linear-gradient(to top, rgba(218, 57, 42, 0.5) 0%, rgba(97, 40, 40, 0.5) 100%), url(../SRC/d1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.contdest{
+    background-color: var(--negrot);
+    width: 100%;
+    margin: 2.5em;
+    padding: .5em 1.5em 2em 1.5em;
+    margin-right: 4em;
+    margin-top: 5em;
+    color: var(--blanco);
+    border-radius: 1.5em;
+}
+
+.infodes{
+    width: 100%;
+    padding: 1em 1.5em 2em 1.5em;
+    margin-top: 2.5em;
+    text-align: justify;
+}
+
+.infodes h2{
+    font-size: 2.5em;
+}
+
+.infodes p{
+    font-size: 1.1em;
+}
+
+.imgdest{
+    margin-top: 2.5em;
+    width: 100%;
+}
+
+.imgdest img{
+    width: 50em;
+    height: 25em;
+    opacity: 70%;
+    border-radius: 1.5em;
+    position: relative;
+}
