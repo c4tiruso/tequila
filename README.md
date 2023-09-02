@@ -20,6 +20,7 @@ Como ya se menciono, la pagina funciona con los tres pilares fundamentales para 
 <img width="1280" alt="image" src="https://github.com/c4tiruso/tequila/assets/141423358/8d1d62d8-204e-4e22-a114-422f3381fe72">
 <img width="310" alt="image" src="https://github.com/c4tiruso/tequila/assets/141423358/f7e88700-3716-462a-9b1a-c4641d3e4cf3">
 <img width="310" alt="image" src="https://github.com/c4tiruso/tequila/assets/141423358/0e550dc7-5dce-4997-957a-f71feb3e2260">
+<img width="310" alt="image" src="https://github.com/c4tiruso/tequila/assets/141423358/5efa9826-6a83-424e-95d1-214bca507ade">
 <img width="310" alt="image" src="https://github.com/c4tiruso/tequila/assets/141423358/7406f304-cbf1-4f03-a0a6-1cb2cd5fcc3d">
 
 
