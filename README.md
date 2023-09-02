@@ -6,9 +6,9 @@ La pagina web en cuestion busca dar visibilidad y exposicion a una bebida alcoho
 
 
 A lo largo del desarrollo de esta pagina se ha logrado adquirir distintos conocimientos en cuanto a la aplicacion de las etiquetas de HTML, ademas de conocimientos en dar diseño en la pagina en CSS y dinanismo a la Web con JavaScript, 
-ademas de sabber utilizar esas herramientas se ha adquirido un sentido del orden a la hora de realizar las paginas, lo cual facilita la realizacion de proyectos Web de futuros proyectos, 
-Las implementacion de las tres herramientas juntas slogran dar sentido a la marca, siguiendo la analogia del vehiculo, no existe "Una sola pieza" importante en un vehiculo, el conjunto de
-varias piezas logran dar su funcionamiento, asi mismo para la Web, la aplicacion de HTML,CSS y JavaScript logran dar funcionamiento al "Vehiculo" DAF Tequila's
+ademas de saber utilizar esas herramientas se ha adquirido un sentido del orden a la hora de realizar las paginas, lo cual facilita la realizacion de Pagians Web de futuros proyectos en programcion. 
+La implementacion de las tres herramientas juntas logran dar sentido a la marca, siguiendo la analogia del vehiculo, no existe "Una sola pieza" importante en un vehiculo, el conjunto de
+varias piezas logran dar su funcionamiento, asi mismo para la Web, las aplicaciones de HTML,CSS y JavaScript logran dar funcionamiento al "Vehiculo" DAF Tequila's
 
 
 <img width="1233" alt="image" src="https://github.com/c4tiruso/tequila/assets/141423358/28979273-c757-47ac-9784-cfdb19293ae1">
