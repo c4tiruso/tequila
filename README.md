@@ -1,5 +1,5 @@
 # DAF Tequila's
-<div text-align=justify;>La pagina web en cuestion busca dar visibilidad y exposicion a una bebida alcoholica, especificamente en el area del tequila de la empresa Devil and Demons (DAF). dicha pagina Web busca proporcionarle una experiencia diferente al usuario a la hora de relacionarse con ella, desde interactuar con las distintas secciones de la pagina, visualizar el proceso de fabriacion del producto, asi tambien como iniciar sesion para acceder al catalogo de producto y a promociones  exclusivas a los clientes mas fieles de la marca.<div/>
+La pagina web en cuestion busca dar visibilidad y exposicion a una bebida alcoholica, especificamente en el area del tequila de la empresa Devil and Demons (DAF). dicha pagina Web busca proporcionarle una experiencia diferente al usuario a la hora de relacionarse con ella, desde interactuar con las distintas secciones de la pagina, visualizar el proceso de fabriacion del producto, asi tambien como iniciar sesion para acceder al catalogo de producto y a promociones  exclusivas a los clientes mas fieles de la marca.
 
 
 <img width="1280" alt="image" src="https://github.com/c4tiruso/tequila/assets/141423358/f7aee12c-75bc-46fb-84ef-15b042b7ba73">
@@ -23,7 +23,13 @@ Como ya se menciono, la pagina funciona con los tres pilares fundamentales para 
 <img width="310" alt="image" src="https://github.com/c4tiruso/tequila/assets/141423358/7406f304-cbf1-4f03-a0a6-1cb2cd5fcc3d">
 
 
-Para dar 
+Para dar continuidad al proyecto Web de DAF Tequila's, entre sus futuras implementaciones se encuetra relacionar la pagina con una base de datos, para que los usuarios puedan tener sus respectivas cuentas cada una con un sistema de recomendaciones de acuerdo a las preferencias de dicho usuario, ademas indagar mas en el E-Comerce, que representa la distribución, venta, compra, marketing y suministro de información de productos o servicios a través de Internet, el principal fuerte y proposito de realizacion de este proyecto.
+
+
+<img width="1280" alt="image" src="https://github.com/c4tiruso/tequila/assets/141423358/fd51eade-d24f-451c-becd-9b641d594497">
+<img width="1280" alt="image" src="https://github.com/c4tiruso/tequila/assets/141423358/20944fba-cc2f-4142-8ca2-0297160b5d42">
+
+
 
 
 
